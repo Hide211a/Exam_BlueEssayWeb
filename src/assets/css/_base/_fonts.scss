@@ -1,8 +1,21 @@
-
 @font-face {
-    font-family: 'Angeline';
-    src: url(../fonts/AngelineVintage.woff) format('woff'),
-     url(../fonts/AngelineVintage.woff2) format('woff2');
-}
+    font-family: "Poppins-Bold";
+    src: url(./../../assets/fonts/Poppins-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: "Poppins-Medium";
+    src: url(./../../assets/fonts/Poppins-Medium.ttf);
+  }
+  
+  @font-face {
+    font-family: "Poppins-Regular";
+    src: url(./../../assets/fonts/Poppins-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: "Poppins-Light";
+    src: url(./../../assets/fonts/Poppins-Light.ttf);
+  }
 
 
