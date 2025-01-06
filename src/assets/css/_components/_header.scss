@@ -36,14 +36,14 @@ header {
     .tell {
       height: 35px;
       width: 35px;
-      background-image: url("./../../assets/img/phone.png");
+      background-image: url("./../../../assets/img/phone.png");
       background-position: center center;
       background-repeat: no-repeat;
       cursor: pointer;
       margin-right: 20px;
   
       &:hover {
-        background-image: url("./../../assets/img/phone-hover.png");
+        background-image: url("./../../../assets/img/phone-hover.png");
       }
     }
   
@@ -60,13 +60,13 @@ header {
     .rectangle {
       height: 25px;
       width: 25px;
-      background-image: url("./../../assets/img/burger.png");
+      background-image: url("./../../../assets/img/burger.png");
       background-position: center center;
       background-repeat: no-repeat;
       cursor: pointer;
   
       &:hover {
-        background-image: url("./../../assets/img/burger-hover.png");
+        background-image: url("./../../../assets/img/burger-hover.png");
       }
     }
   }

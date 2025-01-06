@@ -1,0 +1,103 @@
+section.testimonials-section {
+    padding: 320px 0 70px 0;
+    background-color: #ffffff;
+  
+    .carousel {
+      width: 70%;
+      margin: auto;
+    }
+  
+    .carousel-control-next-icon {
+      background-image: url("./../../../assets/img/arrow-right.png");
+      width: 32px;
+      height: 64px;
+    }
+  
+    .carousel-control-prev-icon {
+      background-image: url("./../../../assets/img/arrow.png");
+      width: 32px;
+      height: 64px;
+    }
+  
+    .carousel-card-unique {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      img {
+        height: 60px;
+        width: auto;
+        margin-top: 35px;
+      }
+  
+      p {
+        line-height: 28px;
+        color: #51555a;
+        font-weight: 300;
+        font-family: "Poppins-Light";
+        text-align: center;
+        padding: 0 20px;
+        margin: 25px 0;
+      }
+  
+      .name-unique {
+        font-size: 17px;
+        color: #0287c3;
+        font-weight: 600;
+        font-family: "Poppins-Bold";
+        text-align: center;
+        margin-bottom: 10px;
+      }
+  
+      .datum-unique {
+        font-size: 13px;
+        color: #a3a6a9;
+        font-weight: 300;
+        font-family: "Poppins-Light";
+        text-align: center;
+        margin-bottom: 20px;
+      }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 991px) {
+    section.testimonials-section {
+      padding: 340px 0 50px 0;
+  
+      .carousel {
+        width: 80%;
+      }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    section.testimonials-section {
+      .carousel {
+        width: 85%;
+      }
+  
+      .carousel-control-next-icon-unique {
+        width: 24px;
+        height: 48px;
+      }
+  
+      .carousel-control-prev-icon-unique {
+        width: 24px;
+        height: 48px;
+      }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    section.testimonials-section {
+      padding: 60px 0 70px 0;
+  
+      .carousel {
+        width: 85%;
+      }
+    }
+}
